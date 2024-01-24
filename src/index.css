@@ -1,0 +1,69 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    min-height: 100%;
+    width: 100%;
+}
+body{
+    background: #00000F;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#root{
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start {
+    align-self: start;
+}
+
+p{
+    margin: 0px 0px;
+}
+button {
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    line-height: 22px;
+    font-weight: 700;
+    border: 0px;
+}
+button, a{
+    cursor: pointer;
+    text-decoration: none;
+}
+a, a:active{
+    color: white;
+}
+
+.footer_external, .content{
+    z-index: 1;
+}
+
+.block{
+    /* height: 80vh; */
+}
+
+@media screen and (max-width: 1400px) {
+   html {
+    width: 100vw;
+    overflow-x: hidden;
+   }
+    
+}

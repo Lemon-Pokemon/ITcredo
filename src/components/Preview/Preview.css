@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.preview {
+    width: 1360px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: white;
+    font-family: Raleway;
+    align-items: center;
+    margin-bottom: 126px;
+}
+
+.preview span {
+    margin-top: 20px;
+    width: 887px;
+    font-size: 24px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+#blue_button {
+    margin-top: 40px;
+    width: 350px;
+    height: 62px;
+    border-radius: 16px;
+    background: #004DFF;
+    font-size: 18px;
+    color: white;
+    backdrop-filter: blur(25px);
+    transition: all 0.8s ease;
+}
+
+@media screen and (max-width: 1400px) {
+    .preview{
+        width: 100%;
+        margin: 190px 0px 0px 0px;
+    }
+
+    .preview span{
+        width: 100%;
+        text-align: start;
+        margin-top: 0px;
+    }
+    
+}
